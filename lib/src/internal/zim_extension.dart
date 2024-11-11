@@ -62,3 +62,14 @@ ZegoSignalingPluginInvitationUserState userStateConvertFunc(
       return ZegoSignalingPluginInvitationUserState.beCanceled;
   }
 }
+
+extension ZIMCallInvitationCancelledInfoExtension
+    on ZIMCallInvitationCancelledInfo {
+  String toStringX() {
+    return 'ZIMCallInvitationCancelledInfo{'
+        'inviter:$inviter, '
+        'extendedData:$extendedData, '
+        'mode:$mode, '
+        '}';
+  }
+}

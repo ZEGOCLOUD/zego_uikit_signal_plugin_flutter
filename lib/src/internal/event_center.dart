@@ -307,7 +307,9 @@ class ZegoSignalingPluginEventCenter {
       String invitationID,
     ) {
       ZegoSignalingLoggerService.logInfo(
-        'onCallInvitationCancelled, info:$info, invitationID:$invitationID',
+        'onCallInvitationCancelled, '
+        'info:${info.toStringX()}, '
+        'invitationID:$invitationID',
         tag: 'signaling',
         subTag: 'event center',
       );

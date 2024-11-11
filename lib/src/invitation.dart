@@ -16,7 +16,8 @@ class ZegoSignalingPluginInvitationAPIImpl
       'send invitation, invitees:$invitees, '
       'timeout:$timeout, '
       'extendedData:$extendedData, '
-      'push config:${pushConfig.toString()}',
+      'push config:${pushConfig.toString()}, '
+      'isAdvancedMode:$isAdvancedMode, ',
       tag: 'signaling',
       subTag: 'invitation',
     );
