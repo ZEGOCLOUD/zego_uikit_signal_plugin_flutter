@@ -1,0 +1,6 @@
+# melos_managed_dependency_overrides: zego_plugin_adapter
+dependency_overrides:
+  zego_plugin_adapter:
+    git:
+      url: https://github.com/ZEGOCLOUD/zego_plugin_adapter_flutter.git
+      ref: develop
